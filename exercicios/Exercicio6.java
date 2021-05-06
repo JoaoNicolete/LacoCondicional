@@ -16,7 +16,7 @@ public class Exercicio6 {
 			System.out.println("Insira um número: ");
 			numero = ler.nextInt();
 			
-			if(numero%3==0) {
+			if(numero%3==0 && numero!=0) {
 				contador++;
 				soma=soma+numero;
 				media = soma/contador;
