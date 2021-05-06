@@ -18,7 +18,7 @@ public class Exercicio3 {
 		int idade, sexo, humor, contador=0, numeroCalmas=0, mulheresNervosas=0, homemAgressivo=0;
 		int outrosCalmos=0, adultosNervosos=0, jovensCalmos=0;
 		
-		while(contador<=150){
+		while(contador<150){
 			contador++;
 			System.out.println("Escreva sua idade: ");
 			idade = ler.nextInt();
@@ -51,7 +51,7 @@ public class Exercicio3 {
 		System.out.println("O número de pessoas calmas é: " + numeroCalmas);
 		System.out.println("O número de mulheres nervosas é: " + mulheresNervosas);
 		System.out.println("O número de homens agressivos é: " + homemAgressivo);
-		System.out.println("O número de não-binários calmos é: " + outrosCalmos);
+		System.out.println("O número de não-binários calmes é: " + outrosCalmos);
 		System.out.println("O número de pessoas maiores de quarenta nervosos é: " + adultosNervosos);
 		System.out.println("O número de menores de 18 calmos é: " + jovensCalmos);
 		

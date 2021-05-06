@@ -17,7 +17,7 @@ public class Exercicio4 {
 			System.out.println("Insira a idade: ");
 			idade = ler.nextInt();
 			
-			if(idade<=21) {
+			if(idade<=21 && idade!=-99) {
 				menor++;
 			}
 			if(idade>=50) {
