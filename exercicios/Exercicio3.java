@@ -18,7 +18,7 @@ public class Exercicio3 {
 		int idade, sexo, humor, contador=0, numeroCalmas=0, mulheresNervosas=0, homemAgressivo=0;
 		int outrosCalmos=0, adultosNervosos=0, jovensCalmos=0;
 		
-		while(contador<=5){
+		while(contador<=150){
 			contador++;
 			System.out.println("Escreva sua idade: ");
 			idade = ler.nextInt();
